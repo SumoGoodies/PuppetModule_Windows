@@ -1,0 +1,15 @@
+{
+   "api.version":"v1",
+   "sources": [{
+      "name": "Window Event Logs",
+      "category": "Windows_OS_Events",
+      "sourceType": "LocalWindowsEventLog",
+      "logNames": ["Security", "System", "Application"]
+      },
+      {
+      "sourceType": "LocalFile",
+      "name": "Example1",
+      "pathExpression": "c:\\inetpub\\logs\\*.log",
+      "category": "Windows_Sharepoint_Portal"
+      }]
+}
